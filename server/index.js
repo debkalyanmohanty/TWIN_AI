@@ -18,7 +18,7 @@ app.use('/api/v1/post' , postRoutes);
 app.use('/api/v1/dalle', dalleRoutes);
 
 app.use('/', async(req,res)=>{
-    res.send('Hello From DALL-E!');
+    res.send('Hello From TWIN!');
 })
 
 
